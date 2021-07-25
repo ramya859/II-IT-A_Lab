@@ -1,0 +1,27 @@
+class stringmethods
+{
+    public static void main(String args[])
+    {  
+        String result;
+        String name1 = "Hello";
+        String name2 = "World";
+        result = name1.concat(name2);
+        System.out.println(result);
+        System.out.println(result.length());
+        char ch = name1.charAt(4);
+        System.out.println(ch);
+        System.out.println(name1.compareTo(name2));
+        System.out.println(name1.equals(name2));
+        System.out.println(name1.startsWith("He"));
+        System.out.println(name1.endsWith("he"));
+        System.out.println(name1.indexOf("l"));
+        System.out.println(name1.lastIndexOf('e',2));
+        System.out.println(result.substring(2));
+        System.out.println(result.toLowerCase());
+        System.out.println(result.toUpperCase());
+        System.out.println(name1.trim()+"world");
+        System.out.println(result.replace('r','R'));
+        System.out.println(name1.compareToIgnoreCase(name2));
+        
+   }
+}
