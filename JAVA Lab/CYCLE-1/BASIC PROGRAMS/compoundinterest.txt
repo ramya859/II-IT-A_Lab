@@ -1,0 +1,8 @@
+class compoundinterest{
+    public static void main(String args[]){
+        double p=2000,r=0.08,n=12,t=5,amount,CI;
+        amount = p * Math.pow(1 + (r / n), n * t); 
+        CI = amount-p;
+        System.out.println("Compound Interest : "+CI);
+    }
+}
