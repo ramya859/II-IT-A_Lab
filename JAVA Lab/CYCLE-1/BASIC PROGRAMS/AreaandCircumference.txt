@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class AreaandCircumference {
+    public static void main(String args[]){
+         Scanner input = new Scanner(System.in);
+         double radius,area,circumference;
+         System.out.print("Enter radius: ");
+         radius = input.nextDouble();
+         area = 3.14*radius*radius;
+         circumference = 2*3.14*radius;
+         System.out.println("area of circle = "+area);
+         System.out.println("Circumference of circle = "+circumference);
+    }
+}
