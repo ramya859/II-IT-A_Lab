@@ -1,0 +1,17 @@
+public class StringandChar {
+    public static void main(String args[]){
+        //char to string
+        char ch = 'S';
+        String str = Character.toString(ch);
+        System.out.println("String is :"+str);
+
+        //string to char
+        String Str = "Happy";
+        for(int i=0;i<Str.length();i++){
+            char c = Str.charAt(i);
+            System.out.println(c+" ");
+        }
+
+
+    }
+}
