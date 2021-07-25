@@ -1,0 +1,7 @@
+public class PowerofNumber {
+    public static void main(String args[]){
+        int num=2,pow=3;
+        double  power_num = Math.pow(num,pow);
+        System.out.println(power_num);
+    }
+}
