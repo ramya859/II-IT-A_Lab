@@ -1,0 +1,26 @@
+class stringbuffer {
+        public static void main(String args[])
+        {
+            StringBuffer name1 = new StringBuffer("Hello");
+            StringBuffer name2 = new StringBuffer("World");
+            System.out.println(name1.length());
+            System.out.println(name2.capacity());
+            name1.append(name2);
+            System.out.println(name1);
+            System.out.println(name1.insert(5,"java"));
+            System.out.println(name1.delete(5,9));
+            System.out.println(name2.deleteCharAt(2));
+            System.out.println(name2.replace(1,3,"or"));
+            System.out.println(name2.reverse());
+            name2.setCharAt(2,'s');
+            System.out.println(name2);
+            int x=name1.indexOf("o");
+            System.out.println(x);
+            int y=name1.lastIndexOf("r");
+            System.out.println(y);
+            System.out.println(name1.substring(2));
+
+
+        }
+
+}
